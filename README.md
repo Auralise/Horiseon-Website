@@ -9,3 +9,10 @@ This week, we were tasked with refactoring a webpage to conform to the generally
 - CSS is consolidated and well commented
 - Logical structure of elements 
 
+### Tasks completed
+
+- Modified all divs to conform to semantic equivalents where relevant 
+- Added alt tags to all relevant images
+- Consolidated all CSS classes to generalised equivalent (e.g. content in the main section has been changed to a general class of "main-content-article" to allow for easy extensibility)
+- Retained original IDs for anchor links and JS integration
+- Kept Hero div with background image as this is not relevant to screen readers and does not need to be exposed
