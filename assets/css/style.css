@@ -25,6 +25,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Top Nav only - Retain header selector incase another Nav section is implemented */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -68,7 +69,7 @@ p {
 }
 
 /* ---------- Class Selectors ---------- */
-/* Background Image - Note: not exposed to screen readers */
+/* Background/hero Image - Note: not exposed to screen readers */
 .hero {
     height: 800px;
     width: 100%;
@@ -78,7 +79,7 @@ p {
     background-position: center;
 }
 
-/* ---------- image float classes ---------- */
+/* ---------- Layout float classes ---------- */
 
 .float-left {
     float: left;
